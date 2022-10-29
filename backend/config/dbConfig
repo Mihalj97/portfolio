@@ -1,0 +1,7 @@
+const mongooseOptions = {
+    userNewUrlParser: true,
+    useUnifiedTopology: true,
+    userCreateIndex:true,
+}
+
+module.exports = mongooseOptions;
